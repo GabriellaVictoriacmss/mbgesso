@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesso MB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <button class="btn_icon_header" onclick="toggleSidebar()">
+            <img src="./imgs/menu-icon.svg" alt="">
+        </button>
+        
+        <div class="logo_header">
+            <img src="./imgs/logo-desktop.png" alt="Logo da Gesso MB">
+        </div>
+
+        <div class="navigation_header" id="navigation_header" tabindex="0">
+            <button class="btn_icon_header" onclick="toggleSidebar()">
+                <img src="./imgs/x-icon.svg" alt="">
+            </button>
+            <a href="#" class="active">home</a>
+            <a href="#sobre">sobre</a>
+            <a href="#contato">contato</a>
+           
+        </div>
+
+        
+    </header>
+
+    <main class="content" id="content" onclick="closeSidebar()">
+        <section class="home">
+            <div class="home-text">
+                <h1>Bem-vindo à <span class="span-h1">GESSO MB</span></h1>
+                <span>Transformando ambientes com elegância e qualidade.</span>
+
+                <p>Na GESSO MB, estamos comprometidos em oferecer soluções de gesso excepcionais para tornar seus espaços verdadeiramente únicos. Desde projetos residenciais a comerciais, nossa equipe especializada em gesso oferece um toque de sofisticação e personalidade o seu projeto.</p>
+            </div>
+            <div class="home-img">
+                <img src="./imgs/home-img.svg" alt="Imagem de gesso.">
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="sobre-text">
+                <h1>Sobre a gente</h1>
+                <span class="description">gesso mb</span>
+            </div>
+
+            <div class="sobre-content">
+                <div class="box-content">
+                    <img src="./imgs/key.svg" alt="icone de chave">
+                    <h2>Nossa Missão</h2>
+                    <p>Buscamos ser líderes no mercado de soluções em gesso, proporcionando aos nossos clientes experiências únicas e duradouras. Combinamos expertise técnica, criatividade e comprometimento para superar as expectativas em cada projeto que empreendemos.</p>
+                </div>
+
+                <div class="box-content">
+                    <img src="./imgs/shield.svg" alt="icone de escudo">
+                    <h2>Qualidade</h2>
+                    <p>Na GESSO MB, acreditamos que a qualidade é a essência de tudo o que fazemos. Utilizamos os melhores materiais disponíveis no mercado, combinados com técnicas de última geração, para garantir acabamentos impecáveis e durabilidade incomparável em cada projeto.</p>
+                </div>
+
+                <div class="box-content">
+                    <img src="./imgs/point.svg" alt="icone de localização">
+                    <h2>Visite-nos!</h2>
+                    <p>Convidamos você a visitar nossa loja e conhecer de perto nossa gama de produtos e serviços. Estamos ansiosos para compartilhar nossa paixão e discutir como podemos transformar seu espaço em algo extraordinário.</p>
+                </div>
+                
+            </div>
+            <div class="bottom-content-sobre">
+                <p>Av Guarapiranga,  1857 I Av Guarapiranga,  3308 I Estrada Itapecerica,  8847
+                </p>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+
+            <div class="contato-text">
+                <h1>Contate-nos</h1>
+                <span class="description">gesso mb</span>
+            </div>
+
+            <div class="contato-content">
+                <div class="contato-card">
+                    <h3>Nos encontre!</h3>
+                    <p><img src="./imgs/email.svg" alt="">Email: gessomb@gmail.com</p>
+                    <p><img src="./imgs/tel.svg" alt="">Tel: 123-456-7890</p>
+                </div>
+    
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/elianecunhamss@gmail.com" method="POST">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/mbgesso/send.html">
+                        <input type="text" name="name" required placeholder="Nome">
+                        <input type="email" name="email" required placeholder="E-mail">
+                        <textarea name="message" id="" cols="55" rows="10" placeholder="Mensagem..."></textarea>
+                        <button type="submit">Enviar <img src="./imgs/fly.svg" alt=""></button>
+                   </form>
+                   
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="left">
+            <p>Av Guarapiranga,  1857 I Av Guarapiranga,  3308 I Estrada Itapecerica,  8847</p>
+        </div>
+        <div class="right">
+            <p>© 2023 GESSO MB </p>
+
+            <button><a href="#header"><img src="./imgs/arrow.svg" alt=""></a></button>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
